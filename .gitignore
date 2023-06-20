@@ -1,32 +1,31 @@
-# Prerequisites
-*.d
+#include<iostream>
+using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+    bool isPrime(int number){
+        if (number<=1){
+            return false;
+        }
 
-# Precompiled Headers
-*.gch
-*.pch
+        for (int i=2; i*i<= number; ++i){
+            if (number%i==0){
+                return false;
+            }
+        }
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+        return true;
+    }
 
-# Fortran module files
-*.mod
-*.smod
+int main(){
+    int number;
+    cout<<"Enter a number: ";
+    cin>>number;
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+    if(isPrime(number)){
+        cout<<number<<" is a prime number"<<endl;
+    }
+    else{
+        cout<<number<<" is a composite number"<<endl;
+    }
 
-# Executables
-*.exe
-*.out
-*.app
+return 0;
+}
