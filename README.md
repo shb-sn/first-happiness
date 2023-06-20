@@ -1,5 +1,5 @@
 # first-happiness
-My first complex code n C++ which I ran successfully!
+My first complex code in C++ which I ran successfully!
 I learnt Python for 2 years in my 10+2 classes but I didn't do that much coding. Just the preliminary ones!
 Now I am learning C++ codes and starting to code with C++.
 Since I am a noob in this field, I request all the seniors and pros here to help me out!
